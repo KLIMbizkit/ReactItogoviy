@@ -27,9 +27,9 @@ function App() {
 
         async function axiosData(){
             
-            const tyrsData = await axios.get('https://637f91ca2f8f56e28e904e7d.mockapi.io/tyrs')
-            const cartData = await axios.get('https://637f91ca2f8f56e28e904e7d.mockapi.io/cart')
-            const favoritesData = await axios.get('https://637f91ca2f8f56e28e904e7d.mockapi.io/favorites')
+            const tyrsData = await axios.get('https://6398ac8329930e2bb3be5d0f.mockapi.io/tyrs')
+            const cartData = await axios.get('https://6398ac8329930e2bb3be5d0f.mockapi.io/cart')
+            const favoritesData = await axios.get('https://6398ac8329930e2bb3be5d0f.mockapi.io/favorites')
     
               setTyrs(tyrsData.data)
               setOverlayItems(cartData.data)
